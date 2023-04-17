@@ -126,8 +126,6 @@ for (let i = 0; i < canvasSize.w / 50; i++) {
     graph.removeNode(foundPath[idx].id);
 }
 
-console.log({ arrows })
-
 const canvas = createCanvas(canvasSize.w, canvasSize.h);
 const ctx = canvas.getContext('2d');
 ctx.fillStyle = "#764abc";
